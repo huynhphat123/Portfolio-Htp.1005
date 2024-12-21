@@ -1,8 +1,8 @@
 ### 🧬 Trang web danh mục đầu tư cá nhân đáp ứng sử dụng HTML CSS Javascript | Chế độ tối/sáng của UM-XAIR
 <div align="center">
-<img src="https://github.com/huynhphat123/Portfolio-Htp.1005/blob/main/mainlighthtp" align="center" style="width: 100%" />
+<img src="https://github.com/huynhphat123/Portfolio-Htp.1005/blob/main/images/mainlighthtp" align="center" style="width: 100%" />
 <br />
-<img src="https://github.com/huynhphat123/Portfolio-Htp.1005/blob/main/mainlighthtp" align="center" style="width: 100%" />
+<img src="https://github.com/huynhphat123/Portfolio-Htp.1005/blob/main/images/mainlighthtp" align="center" style="width: 100%" />
 </div>  
   
 <br />
