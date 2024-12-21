@@ -7,47 +7,44 @@
   
 <br />
 
-This HTML and JavaScript code implements dark and light mode functionality for a portfolio website.
+Mã HTML và JavaScript này triển khai chức năng chế độ tối và sáng cho trang web danh mục đầu tư cá nhân.
 
-## HTML Structure:
+## Cấu trúc HTML:
 
-- The HTML file starts with the `<!DOCTYPE html>` declaration, indicating that this is an HTML5 document.
-- Inside the `<head>` section, there are meta tags for defining the character set, viewport settings, and title for the webpage.
-- External CSS libraries, including custom CSS and Boxicons, are linked using `<link>` tags.
-- The `<body>` section contains the main content of the webpage, including header, sections for home, about, services, portfolio, testimonial, and contact, and a footer.
+- Tệp HTML bắt đầu với khai báo `<!DOCTYPE html>`, cho biết đây là tài liệu HTML5.
+- Trong phần `<head>`, có các thẻ meta để xác định bộ ký tự, cấu hình viewport và tiêu đề cho trang web.
+- Các thư viện CSS ngoài, bao gồm CSS tùy chỉnh và Boxicons, được liên kết bằng các thẻ `<link>`.
+- Phần `<body>` chứa nội dung chính của trang web, bao gồm các phần cho trang chủ, giới thiệu, dịch vụ, danh mục đầu tư, đánh giá và liên hệ, cùng với phần footer.
 
 ## JavaScript (scripts.js):
 
-- The JavaScript code handles the dark and light mode functionality, toggling between the two modes when the respective icon is clicked.
-- The menu icon for the navbar and the dark mode icon are selected using `document.querySelector()`.
-- Event listeners are added to these icons to toggle classes and apply styles for dark mode.
-- The scroll section active link functionality highlights the active link in the navbar based on the section currently in view.
-- The sticky navbar feature adds a class to the header when the user scrolls beyond a certain point.
-- The Swiper library is used to create a testimonial carousel with pagination and navigation buttons.
-- Scroll reveal animations are implemented to animate elements on scroll, providing a smooth user experience.
+- Mã JavaScript xử lý chức năng chuyển đổi giữa chế độ tối và sáng, khi nhấp vào biểu tượng tương ứng.
+- Biểu tượng menu cho thanh điều hướng và biểu tượng chế độ tối được chọn bằng `document.querySelector()`.
+- Các trình lắng nghe sự kiện (event listeners) được thêm vào các biểu tượng này để chuyển đổi các lớp và áp dụng các kiểu CSS cho chế độ tối.
+- Chức năng liên kết mục đã cuộn (scroll section active link) làm nổi bật liên kết mục đang hiển thị trong thanh điều hướng dựa trên phần hiện tại trong cửa sổ xem.
+- Chức năng thanh điều hướng dính (sticky navbar) thêm một lớp vào tiêu đề khi người dùng cuộn xuống một điểm nhất định.
+- Thư viện Swiper được sử dụng để tạo ra một carousel đánh giá với phân trang và các nút điều hướng.
+- Các hiệu ứng scroll reveal được triển khai để tạo hiệu ứng hoạt hình cho các phần tử khi người dùng cuộn trang, mang lại trải nghiệm người dùng mượt mà.
 
-### Dark and Light Mode Functionality:
+### Chức năng Chế độ Tối và Sáng:
 
-- Clicking the dark mode icon toggles the appearance of the website between dark and light themes.
-- This functionality is achieved by toggling classes on the body element, which apply different CSS styles for dark and light mode.
-- The dark mode icon also changes its appearance to indicate the current mode (sun icon for light mode and moon icon for dark mode).
+- Khi nhấp vào biểu tượng chế độ tối, giao diện trang web sẽ chuyển đổi giữa chế độ tối và sáng.
+- Chức năng này được thực hiện bằng cách chuyển đổi các lớp trên phần tử `body`, điều này sẽ áp dụng các kiểu CSS cho chế độ tối và sáng.
+- Biểu tượng chế độ tối cũng thay đổi hình ảnh của nó để chỉ ra chế độ hiện tại (biểu tượng mặt trời cho chế độ sáng và biểu tượng mặt trăng cho chế độ tối).
 
-## Explanation of Specific Parts:
+## Giải thích về các phần cụ thể:
 
-- The dark and light mode functionality is controlled by JavaScript, which dynamically adds or removes CSS classes based on user interaction.
-- The `classList.toggle()` method is used to toggle the 'dark-mode' class on the body element, which triggers the CSS styles for dark mode.
-- Event listeners are added to the dark mode icon to detect clicks and toggle the dark mode class accordingly.
-- Scroll reveal animations are implemented to add visual interest and enhance the user experience by animating elements on scroll.
-
-<br />
-Inspiration from the [Codehal YouTube channel](https://www.youtube.com/@codehal) 🫶
+- Chức năng chế độ tối và sáng được điều khiển bởi JavaScript, nó thêm hoặc loại bỏ các lớp CSS dựa trên sự tương tác của người dùng.
+- Phương thức `classList.toggle()` được sử dụng để chuyển đổi lớp 'dark-mode' trên phần tử `body`, điều này kích hoạt các kiểu CSS cho chế độ tối.
+- Các trình lắng nghe sự kiện được thêm vào biểu tượng chế độ tối để phát hiện các cú nhấp chuột và chuyển đổi lớp chế độ tối theo đó.
+- Các hiệu ứng scroll reveal được triển khai để thêm sự thú vị thị giác và nâng cao trải nghiệm người dùng bằng cách tạo hoạt ảnh cho các phần tử khi cuộn trang.
 
 <br />
 
 ## Connect with Me 🌐
-<a href="https://www.tiktok.com/@html.devlyss" target="_blank">
+<a href="[https://www.tiktok.com/@html.devlyss](https://www.tiktok.com/@phattuan50)" target="_blank">
 <img src=https://img.shields.io/badge/tiktok-%23000000.svg?&style=for-the-badge&logo=tiktok&logoColor=white alt=tiktok  height="50" width="210"" />
 </a>
-<a href="mailto:umairaxin@gmail.com" target="_blank">
+<a href="mailto:phathuynh897@gmail.com" target="_blank">
 <img src="https://img.shields.io/badge/email-%23000000.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="email" height="50" width="210" />
 </a>
